@@ -1,0 +1,38 @@
+Questions for Micah - Project Three - Team CharTindIan "SNPPR"
+Tuesday, September 30
+
+
+**Pitch:** 
+By reducing the amount of steps needed to copy-and-paste images and links, SNPPR makes it quicker and more intuitive for people to share images with their contacts.
+
+SNPPR is a web application that gives users a simple interface to  translate image and web links onto one page for easy access and easy sharing with contacts.
+
+
+
+**Tell us what your API is (can change later if needed, but needs to have an idea that makes sense):** 
+The SNPPR API takes user-submitted links to images and web sites and outputs these assets onto one web page, with a custom shortened URL, for quick and easy sharing.  The API will process the link and image information on the input page, post the assets to appear on a single output page via JSON and deliver a unique URL where the page can be permanently accessed.
+
+
+When logged in, users can access previous entries and incorporate images saved on local machines.
+
+
+
+**Is your team choosing roles, or pairing for everything?** 
+- Based on experience and interest, we slotted out responsibilities such that Ian is the lead Ruby on Rails engineer; Satinder is the main JavaScript engineer and Charles will support both efforts and manage PivotalTracker and take on any tasks that need attention.
+
+All team members will provide QA support throughout development.
+
+
+
+**What concerns do you guys have right now?** 
+Incorporating additional functionality that was outside of our original scope at the pitch presentation:
+- Drag and Drop functionality
+- Adding the ability for users to upload their personal images for inclusion into the service/site
+- Scraping web sites for metadata to use in displaying web links
+
+In addition, the overall process of development is always going to be an area of concern.
+
+
+
+**Which lessons do you wish we had more review/time for?**
+- Continued repetition of Ruby exercises, especially creating apps from scratch, and all examples of best practices are always welcome.
