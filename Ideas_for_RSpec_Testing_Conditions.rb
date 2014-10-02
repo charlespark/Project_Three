@@ -1,7 +1,5 @@
 "RSpec test conditions for each category"
 
-
-
 User - refers to the actual SNPPR user
 Categories - refers to the categories that users can place images (web-hosted or personal) and webs (web site links) into
 Images - refers to web-hosted images (i.e. images that are already online and linked from other sites)
@@ -30,12 +28,10 @@ What happens if it is PNG / GIF / Other?
 Does this have alt-text?
 
 
-
-
 Personals
 has_many :images
 Can the user upload images from their computer?
-Not directly related, though can the user drag-and-drop pictures to the input page
+Not directly related, though can the user drag-and-drop pictures to the input page?
 
 
 Urls
@@ -43,7 +39,6 @@ has_many :images
 belongs_to :users, :categories
 Does the URL lead to the proper output page?
 Does the URL shorten correctly?
-
 
 
 Users
@@ -60,3 +55,4 @@ Does the link contain metadata/screenshot that can be scraped?
 
 
 Sessions(?)
+Skip this for any model testing
